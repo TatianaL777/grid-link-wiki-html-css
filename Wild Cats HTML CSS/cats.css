@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 90%;
+  margin: 30px auto;
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /*1fr 1fr*/
+  grid-template-rows: repeat(2, 1fr);
+}
+.wild-cat {
+  background-color: #7da3a1; 
+  border: 15px ridge #004d47;
+  
+  text-align: center;
+  overflow: hidden;
+}
+.wild-cat a {
+  color: #03222e;
+}
+h1 {
+  padding: 5px;
+}
+.wild-cat img {
+  height: 350px;
+}
+.wild-cat img:hover {
+    transform: scale(1.30);
+    transition: 2s;
+}
+
+
